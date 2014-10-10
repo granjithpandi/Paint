@@ -1,0 +1,40 @@
+/*  
+	Author Details
+	==============
+	Author: Ranjith Pandi
+
+	Author URL: http://ranjithpandi.com
+
+	Attribution is must on every page, where this work is used.
+
+	For Attribution removal request. please consider contacting us through http://ranjithpandi.com/#contact
+*/
+
+canvas{
+	border: 1px solid #e5e5e5;
+    cursor: url('../images/brush.png') 0 20, auto;
+}
+.toolbar-item{
+	margin: 0 0 10px 0;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.toolbar-item div{
+	float: left;
+	padding: 5px 10px;
+	background: #E5E5E5;
+	border: 1px solid #e5e5e5;
+	margin: 2px;
+	line-height: 20px;
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+input[type="color"]{
+	height: 19px;
+	border: 0px;
+	padding: 0px;
+	background: rgba(0, 0, 0, 0);
+	outline: none;
+}
